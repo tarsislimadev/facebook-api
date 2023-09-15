@@ -4,6 +4,8 @@
 
 [Messenger Platform](https://developers.facebook.com/docs/messenger-platform/get-started/)
 
+[Messenger Platform (send messages)](https://developers.facebook.com/docs/messenger-platform/send-messages/)
+
 ## .env
 
 ```sh
