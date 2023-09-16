@@ -26,8 +26,6 @@ page_id=""
 
 object_story_spec="{\"link_data\":{\"image_hash\":\"${image_hash}\",\"link\":\"${url}\",\"message\":\"tryitout\"},\"page_id\":\"${page_id}\"}"
 
-AD_ACCOUNT_ID=""
-
 resp2=$( bash get.sh "act_${AD_ACCOUNT_ID}/adcreatives" "name=${name}&object_story_spec=${object_story_spec}&access_token=${ACCESS_TOKEN}" | jq )
 
 # outputs
