@@ -26,7 +26,7 @@ status="PAUSED"
 
 # runner
 
-resp=$( bash get.sh "${path}" "name=${name}&adset_id=${adset_id}&creative=${creative}&status=${status}&access_token=${ACCESS_TOKEN}" | jq )
+resp=$( bash get.sh "${path}" "name=${name}&adset_id=${adset_id}&creative=${creative}&status=${status}&access_token=${ACCESS_TOKEN}" )
 
 # outputs
 

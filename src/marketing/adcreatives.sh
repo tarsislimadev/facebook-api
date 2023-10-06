@@ -10,7 +10,7 @@ bash ./datetime.sh
 
 # runner
 
-resp=$( bash get.sh "${path}" | jq )
+resp=$( bash get.sh "${path}" )
 
 # outputs
 

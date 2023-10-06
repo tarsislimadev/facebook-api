@@ -14,7 +14,7 @@ IMAGE_PATH=""
 
 # runner
 
-resp=$( bash get.sh "${path}" "filename=@${IMAGE_PATH}&access_token=${ACCESS_TOKEN}" | jq )
+resp=$( bash get.sh "${path}" "filename=@${IMAGE_PATH}&access_token=${ACCESS_TOKEN}" )
 
 # outputs
 

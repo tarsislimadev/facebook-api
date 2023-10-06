@@ -10,7 +10,7 @@ datetime=$( date +%Y%m%d%H%M%S )
 
 # runner
 
-resp=$( bash get.sh "${path}" "param1=1" | jq )
+resp=$( bash get.sh "${path}" "param1=1" )
 
 # outputs
 
