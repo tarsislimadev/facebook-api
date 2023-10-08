@@ -16,4 +16,4 @@ resp=$( bash get.sh "${path}" "param1=1" )
 
 bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp" "${resp}"
+bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"

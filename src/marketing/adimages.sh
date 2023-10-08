@@ -20,4 +20,4 @@ resp=$( bash get.sh "${path}" "filename=@${IMAGE_PATH}&access_token=${ACCESS_TOK
 
 bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp" "${resp}"
+bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"

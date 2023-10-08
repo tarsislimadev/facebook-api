@@ -30,4 +30,4 @@ resp=$( bash get.sh "${path}" "name=${name}&status=${status}&optimization_goal=$
 
 bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp" "${resp}"
+bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"

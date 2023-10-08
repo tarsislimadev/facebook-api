@@ -32,4 +32,4 @@ resp=$( bash get.sh "${path}" "name=${name}&adset_id=${adset_id}&creative=${crea
 
 bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp" "${resp}"
+bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
