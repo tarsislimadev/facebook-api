@@ -2,10 +2,18 @@
 
 # https://developers.facebook.com/docs/facebook-login/guides/access-tokens
 
+# inputs
+
 . .env
 
-client_id=""
+. datetime.sh
 
-client_secret=""
+# runner
 
-curl -sL "https://graph.facebook.com/oauth/access_token?client_id=${client_id}&client_secret=${client_secret}&grant_type=client_credentials" | jq 
+ACCESS_TOKEN=$( bash get.sh "oauth/access_token" "client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&grant_type=client_credentials" | jq '.access_token' )
+
+# outputs
+
+bash env.sh "ACCESS_TOKEN" "${ACCESS_TOKEN}" 
+
+bash create.sh "ACCESS_TOKEN" "${datetime}" "ACCESS_TOKEN" "${ACCESS_TOKEN}"
