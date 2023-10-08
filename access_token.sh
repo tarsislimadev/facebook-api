@@ -1,5 +1,7 @@
 #!/usr/bin/sh
 
+# https://developers.facebook.com/docs/facebook-login/guides/access-tokens
+
 . .env
 
 client_id=""
