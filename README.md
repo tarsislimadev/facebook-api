@@ -1,6 +1,6 @@
 # [Facebook API](https://developers.facebook.com/)
 
-## developers docs
+## API's references
 
 [Marketing API](https://developers.facebook.com/docs/marketing-apis/overview)
 
@@ -8,7 +8,7 @@
 
 [Messenger Platform (send messages)](https://developers.facebook.com/docs/messenger-platform/send-messages/)
 
-## install
+## how to install
 
 ### .env
 
