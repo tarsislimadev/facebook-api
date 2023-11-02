@@ -14,7 +14,7 @@
 
 ## how to install
 
-### .env
+### .env file
 
 ```sh
 DATABASE=./data
