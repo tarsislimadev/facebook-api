@@ -6,14 +6,14 @@
 
 path="UpdateCampaign"
 
-bash ./datetime.sh
+. ./datetime.sh
 
 # runner
 
-resp=$( bash get.sh "${path}" )
+resp=$( . get.sh "${path}" )
 
 # outputs
 
-bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
+. create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
+. create.sh "${path}" "${datetime}" "resp.json" "${resp}"

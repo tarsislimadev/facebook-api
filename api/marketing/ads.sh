@@ -26,10 +26,10 @@ status="PAUSED"
 
 # runner
 
-resp=$( bash get.sh "${path}" "name=${name}&adset_id=${adset_id}&creative=${creative}&status=${status}&access_token=${ACCESS_TOKEN}" )
+resp=$( . get.sh "${path}" "name=${name}&adset_id=${adset_id}&creative=${creative}&status=${status}&access_token=${ACCESS_TOKEN}" )
 
 # outputs
 
-bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
+. create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
+. create.sh "${path}" "${datetime}" "resp.json" "${resp}"

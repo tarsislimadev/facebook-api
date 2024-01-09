@@ -14,10 +14,10 @@ IMAGE_PATH=""
 
 # runner
 
-resp=$( bash get.sh "${path}" "filename=@${IMAGE_PATH}&access_token=${ACCESS_TOKEN}" )
+resp=$( . get.sh "${path}" "filename=@${IMAGE_PATH}&access_token=${ACCESS_TOKEN}" )
 
 # outputs
 
-bash create.sh "${path}" "${datetime}" "datetime" "${datetime}"
+. create.sh "${path}" "${datetime}" "datetime" "${datetime}"
 
-bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
+. create.sh "${path}" "${datetime}" "resp.json" "${resp}"

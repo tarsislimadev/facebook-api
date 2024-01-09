@@ -10,8 +10,8 @@ path="facebook/picture"
 
 # runner
 
-resp=$( bash ./get.sh "${path}" "redirect=false" )
+resp=$( . ./get.sh "${path}" "redirect=false" )
 
 # outputs
 
-bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
+. create.sh "${path}" "${datetime}" "resp.json" "${resp}"

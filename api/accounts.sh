@@ -12,8 +12,8 @@ path="${USER_ID}/accounts"
 
 # runner
 
-resp=$( bash get.sh "${path}" "access_token=${ACCESS_TOKEN}" )
+resp=$( . get.sh "${path}" "access_token=${ACCESS_TOKEN}" )
 
 # outputs
 
-bash create.sh "${path}" "${datetime}" "resp.json" "${resp}"
+. create.sh "${path}" "${datetime}" "resp.json" "${resp}"
