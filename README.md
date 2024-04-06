@@ -2,6 +2,8 @@
 
 ## API's references
 
+[Facebook - Graph API](https://developers.facebook.com/docs/graph-api/reference)
+
 [Marketing API](https://developers.facebook.com/docs/marketing-apis/overview)
 
 [Messenger Platform](https://developers.facebook.com/docs/messenger-platform/get-started/)
